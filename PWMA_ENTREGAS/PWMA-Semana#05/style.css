@@ -1,0 +1,68 @@
+body{
+    background-color: azure;
+    font-family: arial;
+}
+
+header{
+    background-color: rgb(212, 248, 248);
+}
+
+nav{
+    background-color: rgb(137, 245, 245);
+    align-items: center;
+    align-self: center;
+    display: flex;
+    }
+#divBusca{
+        background-color:#E0EEEE;
+        border:solid 2px #5F9EA0;
+        border-radius:10px;
+        width:300px;
+        height:32px;
+      }
+      
+      #txtBusca{
+        float:left;
+        background-color:transparent;
+        padding-left:5px;
+        font-size:18px;
+        border:none;
+        height:32px;
+        width:191px;
+      }
+      
+      #btnBusca{
+        border:none;
+        float:left;
+        height:32px;
+        border-radius:0 7px 7px 0;
+        width:70px;
+        font-weight:bold;
+        background:#5F9EA0;
+      }
+      
+      #divBusca img{
+        float:left;
+      }
+
+main{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+footer p {
+    font-size: 50%;
+}
+
+
+footer section {
+    display: flex;
+}
+
+#divImg{
+    border-radius: 20px ;
+    margin: 60px 0;
+}
