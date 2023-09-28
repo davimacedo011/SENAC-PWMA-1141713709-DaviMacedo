@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HotelRe</title>
+    <script src="../hoteis.js"></script>
+</head>
+<body>
+    <ul id= "quartos-lista"></ul>
+    <button id="mostrar-quartos">Load</button>
+
+       <script>
+        const botaoMostrarQuartos = document.getElementById('mostrar-quartos');
+        botaoMostrarQuartos.addEventListener('click', function () {
+        criarListaQuartos(database);
+        });
+       </script>
+  
+
+</body>
+</html>
